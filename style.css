@@ -1,0 +1,244 @@
+body{
+    margin: 0;
+}
+h1{
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.liste_liens{
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-top: -20px;
+}
+.liste_liens a{
+    margin-left: 10px;
+    margin-right: 20px;
+    color: black;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(187, 187, 241);
+}
+.sous_titre, .la_table  {
+    text-align: center; /* Centre horizontalement */
+    display: flex;
+    align-items: center; /* Centre verticalement */
+    justify-content: center; /* Centre horizontalement */
+    margin-top: 40px;
+}
+
+.la_table{
+    border-collapse: collapse;
+}
+.la_table tr th, td{
+    width: 250px;
+    border: 1px solid black;
+}
+
+.formulaire{
+    text-align: center; 
+    align-items: center; /* Centre verticalement */
+    justify-content: center; /* Centre horizontalement */
+    margin-top: 40px;
+    display: flex;
+    width: 500px;
+    margin-left: 35%;
+    
+}
+.formulaire form {
+    border: 1px solid black;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.envoyer, input, select{
+    border: 1px solid black;
+    height: 30px;
+    width: 300px;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+.envoyer{
+    background-color: green;
+    color: white;
+}
+.un_bouton{
+    position: absolute;
+    right: 0;
+    border: 1px solid black;
+    background-color: rgb(18, 59, 241);
+    border-radius: 10px;
+    height: 30px;
+    padding-top: 5px;
+    margin-top: -20px;
+    width: 200px;
+    margin-right: 10px;
+    text-align: center; 
+    align-items: center; /* Centre verticalement */
+    justify-content: center;
+
+}
+.un_bouton a {
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+/* autre style */
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  
+
+
+
+
+/*   suite   */
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "sans-serif";
+}
+
+.le_flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f2f2f2;
+}
+
+
+.popup-container{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: rgba(0, 0, 0, .3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.popup-container.active {
+  opacity: 1;
+  pointer-events: auto;
+  transition:  .2s ease;
+}
+
+.popup-container .popup-box{
+  width: 500px;
+  background: #f2f2f2;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  padding: 30px;
+  transform: scale(0);
+}
+
+.popup-container.active .popup-box{
+  transform: scale(1);
+}
+
+.popup-box h1 {
+  color: #4c0cfc;
+  line-height: 1;
+}
+
+.popup-box p {
+  color:  #333;
+  margin: 12px 0 20px;
+  font-size: 20px;
+}
+
+.popup-box .close-btn {
+  width: 100%;
+  height: 45px;
+  background: #6e78ff;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 18px;
+  color: #f2f2f2;
+  font-weight: 500;
+}
+
+
+
+/* Styles CSS */
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fond noir semi-transparent */
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-container {
+  width: 300px; /* Largeur de 200px */
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.progress-bar {
+  width: 0%;
+  height: 30px;
+  background-color: #4caf50;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  border-radius: 10px;
+}

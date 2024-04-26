@@ -1,0 +1,63 @@
+Warning: POST Content-Length of 324200234 bytes exceeds the limit of 41943040 bytes in Unknown on line 0
+
+
+
+ALTER TABLE `actu_image` ADD `date_enregistrement` DATE NOT NULL ;
+
+thomas amza fondateur de sxeet
+
+Tout rpojet innnocvant est coontrait en termes de ressources :
+	 Optimiser l'usage des ressurces
+	Démontrer le potebntiel et la viabilité
+	Parler a la bonne personne
+
+il est important de trouver le business case au risque de gaspiller des ressources :
+	Poser les bases du business case
+	Comprende qui est le client
+	Comment atteindre le client 
+	Combien de client (le nombre de client que j'espere toucher)
+	Nombre de transaction moyen par client (panier moyen)
+
+Ca donnera la taille moyen du marhcé 
+	Nombre de clients * Transaction moyen = Marhcé total adressable
+	TAM : Total adressable market
+
+Trajectoire du développement (etape par etape coment on va acquerir la popularité)
+	 Quelle est la cible iinitiale
+	Comment on va évoluer a partir de ca jusque la ou on veut 
+
+Beachlead
+	Il faut prendre e compte les ressources pour :
+		Privilégier les clients
+	Atteignables facilement
+	Décision rapide
+	Ventes plus rapides
+	tROUVER LA VIABILITE	
+Ca doit nous ouvrir les ^prtes sionon on peut se retrouver piégé dans
+	piégé dans un marché de niche
+	Coincé dans un usage vertical
+Caractériser le marché est 
+	la question la plus importante
+	Poser les bases du business case
+	identifier l'impact déterminant, il faut donc
+		Identifier et rprofiler le clients
+		Evaluer la taille du marché adressable
+		Choisir la cible initiale
+
+
+
+Lan
+
+
+Quels sont les principes a aborder
+		Identifier et profiler le client
+	Qui serait suffisament interessé par le produit pour acheter
+	Pourquoi
+	Quelles sont leurs motivations	
+	Quel est le porbleme qu'ils rencontrent pour l'acheter
+		2. dimensionner le potentiel
+	Quelle est la taille du gateau
+	Le champs de bataille est grand ? (les adversaires ou autres vendeurs)
+	Le potentiel mondial, national ou local 
+
+	
